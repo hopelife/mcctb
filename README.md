@@ -144,3 +144,16 @@ notebooks
 scripts
 tests
 ```
+
+# pusher
+
+## telegram
+### ref
+- [나만의 텔레그램 봇 만들기](https://junesker.tistory.com/6?category=899615)
+
+## slack
+### ref
+- [슬랙봇을 만들어봅시다](https://story.pxd.co.kr/1262)
+- [슬랙봇 만들기: API를 통해 정보 얻기 및 표시하기](https://brunch.co.kr/@sungi-kim/71)
+- [슬랙(Slack) API 완벽 정리하기](https://13akstjq.github.io/api/2019/09/07/Slack-API-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0.html)
+- [Node 서버로 Slack 메신저 자동화하기](http://labs.brandi.co.kr/2019/01/30/kwakjs.html)
