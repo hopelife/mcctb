@@ -67,3 +67,7 @@ ENV/
 env.bak/
 venv.bak/
 _ve/
+
+# telegram
+*.session
+*.session-journal
