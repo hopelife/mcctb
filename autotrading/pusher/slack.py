@@ -1,4 +1,4 @@
-import os, sys
+import os
 from slacker import Slacker
 from autotrading.pusher.base_pusher import Pusher
 #from base_pusher import Pusher
@@ -12,10 +12,9 @@ class PushSlack(Pusher):
         config.ini 파일로 부터 토큰 값을 읽어 Slacker 객체를 생성합니다.
         """
         config = configparser.ConfigParser()
-        config.read('conf/config.ini')
+        # config.read('conf/config.ini')
+        config.read(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../conf/config.ini")))
         # config = configparser.RawConfigParser()
-        #config = configparser.ConfigParser()
-        # config.read(os.path.join(os.path.dirname(__file__), 'conf', 'config.ini'))
         token = config['SLACK']['token']
         # print(token)
         self.slack = Slacker(token)

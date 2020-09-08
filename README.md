@@ -6,16 +6,17 @@ moon crypto-currency trading bot
 
 ## book
 - [혼자서 만드는 가상화폐 자동거래 시스템](https://wikidocs.net/book/1436)
-- [비트코인 개발자 가이드](https://wikidocs.net/book/1699)
 - [파이썬을 이용한 비트코인 자동매매](https://wikidocs.net/book/1665)
+- [비트코인 개발자 가이드](https://wikidocs.net/book/1699)
 - [bitcoin developer-guide](https://bitcoin.org/en/developer-guide)
 
 ## git
 - [혼자서 만드는 가상화폐 자동거래 시스템](https://gitlab.com/hyunny88/auto-trading/)
 - [파이썬을 이용한 비트코인 자동매매](https://github.com/sharebook-kr/book-cryptocurrency)
 
-## site
 
+## site
+- [가상화폐 국내외 시세 조회 앱 개발 후기](https://medium.com/@joongwon/%EA%B0%80%EC%83%81%ED%99%94%ED%8F%90-%EA%B1%B0%EB%9E%98%EC%86%8C-%EC%95%B1%EC%9D%84-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%8B%A4-e0f80dadc2c9)
 
 # dev environment
 - OS: windows10 / OSX
@@ -152,8 +153,9 @@ tests
 - [나만의 텔레그램 봇 만들기](https://junesker.tistory.com/6?category=899615)
 - [Signing In](https://docs.telethon.dev/en/latest/basic/signing-in.html)
 - [](https://core.telegram.org/method/messages.sendMessage)
-- [](https://core.telegram.org/method/messages.sendMessage)
 
+
+- [Session Files](https://docs.telethon.dev/en/latest/concepts/sessions.html)
 ### telegram 가입
 
 
@@ -219,3 +221,17 @@ C:\dev\projects\mcctb\autotrading\pusher\telegram.py:28: RuntimeWarning: corouti
 C:\dev\projects\mcctb> _ve\Scripts\activate
 (_ve) C:\dev\projects\mcctb> pip install slacker
 ```
+
+
+# 거래소 api
+
+## upbit
+
+
+## bithumb
+- [06-1 빗썸 Private API](https://wikidocs.net/21887#06-1)
+- [bithumb api docs](https://apidocs.bithumb.com/docs/api_info)
+
+
+https://www.bithumb.com/member_operation/my_page
+https://www.bithumb.com/api_support/management_api
